@@ -99,6 +99,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
+### z
+* Zsh-z is now included as part of Oh My Zsh
+
 After installed, modify `.zshrc` and put plugins into configure. Here is my plugins
 ```bash
 plugins=(
@@ -106,5 +109,6 @@ git
 zsh-completions
 zsh-autosuggestions
 zsh-syntax-highlighting
+z
 )
 ```
