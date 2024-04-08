@@ -102,6 +102,12 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ### z
 * Zsh-z is now included as part of Oh My Zsh
 
+### You Should Use
+* Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
+```bash
+git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
+```
+
 After installed, modify `.zshrc` and put plugins into configure. Here is my plugins
 ```bash
 plugins=(
@@ -110,5 +116,6 @@ zsh-completions
 zsh-autosuggestions
 zsh-syntax-highlighting
 z
+you-should-use
 )
 ```
