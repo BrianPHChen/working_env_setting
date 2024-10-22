@@ -41,7 +41,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 [Powerlevel10k](https://github.com/romkatv/powerlevel10k) is a theme for Zsh.
 
 ```bash
-// install through Oh My Zsh
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
@@ -74,6 +73,8 @@ At windows terminal
   2. Select the profile `Ubuntu`(or other linux you used) at the left menu.
   3. Scroll down to the `Additional settings` and click `Appearance`
   4. Change the `Font face`
+
+If you are Mac user, install the fonts by clicking the ttf files
 
 ## Zsh Plugins
 
